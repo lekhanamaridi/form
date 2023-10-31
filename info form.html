@@ -1,0 +1,107 @@
+<html>
+    <head>
+        <title>Information</title>
+        <style>
+            body{
+                background-color: rgb(173, 168, 150);
+            }
+            label{
+                color: rgb(11, 7, 0);
+                font-size: 20px ;
+            }
+            input{
+                width: 500px;
+                height: 30px;
+                border-radius: 3px;
+            }
+            select{
+                width: 400px;
+                height: 30px;
+                border-radius: 3px;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+        <h2>Personal Information</h2>
+        <label>First Name :</label>
+        <br>
+        <input type="text" placeholder="enter first name" required>
+        <br><br>
+        <label>Last Name :</label>
+        <br>
+        <input type="text" placeholder="enter last name" required>
+        <br><br>
+        <label>Date of Birth :</label>
+        <br>
+        <input type="date">
+        <br><br>
+        <label>Gender :</label>
+        <select>
+            <option>select a gender</option>
+            <option>male</option>
+            <option>female</option>
+        </select>
+        <br>
+        <hr>
+        <h2>Account Information</h2>
+        <label>Email :</label>
+        <br>
+        <input type="text" placeholder="enter email" required>
+        <br><br>
+        <label>Re-type Email :</label>
+        <br>
+        <input type="text" placeholder="re-enter email" required>
+        <br><br>
+        <label>Password :</label>
+        <br>
+        <input type="text" placeholder="min. 8 characters,1 number,case-sensitive" required>
+        <br><br>
+        <label>Re-type Password :</label>
+        <br>
+        <input type="text" placeholder="re-enter password" required>
+        <br><br>
+        <label>Security Question :</label>
+        <br>
+        <select>
+            <option>choose a security question</option>
+            <option>what is your pet name</option>
+            <option>in which school did you studied</option>
+        </select>
+        <br><br>
+        <label>Security Answer :</label>
+        <br>
+        <input type="text" required>
+        <br><br>
+        <hr>
+        <h2>Contact Information</h2>
+        <label>Address :</label>
+        <br>
+        <input type="text" required>
+        <br><br>
+        <label>City :</label>
+        <br>
+        <input type="text" placeholder="enter your city" required>
+        <br><br>
+        <label>State :</label>
+        <br>
+        <select>
+            <option>choose a state</option>
+            <option>Karnataka</option>
+            <option>Andra Pradesh</option>
+            <option>Telagana</option>
+            <option>Tamil Nadu</option>
+            <option>Kerala</option>
+        </select>
+        <br><br>
+        <label>Zip Code :</label>
+        <br>
+        <input type="number">
+        <input type="number" placeholder="optional">
+        <br><br>
+        <label>Phone :</label>
+        <br>
+        <input type="number" placeholder="No spaces or dashes" required>
+        </form>
+    </body>
+</html>
